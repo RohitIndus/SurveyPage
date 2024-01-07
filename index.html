@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="top">
+    <h1>Event Registration Form</h1>
+    <p>Please Fill in the below form , we will connect with you soon</p>
+</div>
+
+<div id="form">
+    <form action="/action_page.php">
+
+        <div id="name">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        </div>
+
+        <div id="selection">
+            <input type="radio" id="Netflix" name="brand" value="Netflix">
+            <label for="Netflix">Netflix</label><br>
+
+            <input type="radio" id="amazon" name="brand" value="amazon">
+            <label for="amazon">Amazon</label><br>
+        </div>   
+
+            <div id="address">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city"><br><br>
+
+                <label for="code">Postal Code:</label>
+                <input type="text" id="code" name="code"><br><br>
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state"><br><br>
+            </div>
+
+        <input type="submit" value="Submit">
+      </form>
+</div>
+</body>
+</html>
